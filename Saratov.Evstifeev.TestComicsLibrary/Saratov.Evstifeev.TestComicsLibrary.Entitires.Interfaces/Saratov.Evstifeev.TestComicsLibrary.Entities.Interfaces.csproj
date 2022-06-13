@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Saratov.Evstifeev.TestComicsLibrary.Entities.Static\Saratov.Evstifeev.TestComicsLibrary.Entities.Static.csproj" />
+  </ItemGroup>
+
+</Project>
