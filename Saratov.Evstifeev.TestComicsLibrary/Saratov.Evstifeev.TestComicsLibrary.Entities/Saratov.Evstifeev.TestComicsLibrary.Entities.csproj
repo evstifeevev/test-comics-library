@@ -4,4 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Saratov.Evstifeev.TestComicsLibrary.Entitires.Interfaces\Saratov.Evstifeev.TestComicsLibrary.Entities.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
