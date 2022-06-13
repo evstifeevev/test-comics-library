@@ -9,7 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Saratov.Evstifeev.TestComicsLibrary.Entities.Static\Saratov.Evstifeev.TestComicsLibrary.Entities.Static.csproj" />
     <ProjectReference Include="..\Saratov.Evstifeev.TestComicsLibrary.Entities\Saratov.Evstifeev.TestComicsLibrary.Entities.csproj" />
+    <ProjectReference Include="..\Saratov.Evstifeev.TestComicsLibrary.Entitires.Interfaces\Saratov.Evstifeev.TestComicsLibrary.Entities.Interfaces.csproj" />
     <ProjectReference Include="..\Saratov.Evstifeev.TestComicsLibrary.Library\Saratov.Evstifeev.TestComicsLibrary.Library.csproj" />
   </ItemGroup>
 
