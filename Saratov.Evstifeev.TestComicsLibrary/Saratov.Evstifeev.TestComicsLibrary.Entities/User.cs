@@ -18,5 +18,6 @@ namespace Saratov.Evstifeev.TestComicsLibrary.Entities
         public UserRole UserRole { get; set; } = UserRole.User;
         public UserPrivileges UserPrivileges { get; set; } = UserPrivileges.Read;
         public DateTime? BannedUntil { get; set; } = null;
+        public Guid CreatedBy { get; init; }
     }
 }

@@ -12,5 +12,6 @@ namespace Saratov.Evstifeev.TestComicsLibrary.Entities
         public string Hyperlink { get; set; } = null;
         public bool IsDeleted { get; set; } = false;
         public IUser Author { get; set; }
+        public Guid CreatedBy { get; init; }
     }
 }

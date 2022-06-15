@@ -2,9 +2,10 @@
 {
     public enum UserRole
     {
-        User = 0,
-        Moderator = 1,
-        Administrator = 2,
-        SuperAdministrator = 4,
+        Guest = 0,
+        User = 1,
+        Moderator = 2,
+        Administrator = 4,
+        SuperUser = 8,
     }
 }
